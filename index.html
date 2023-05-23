@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="hero">
+        <section class="main">
+            <section class="header">
+                <div onclick="toggle()" class="toogle"><img src="./images/icon-hamburger.svg" alt=""></div>
+                <header class="logo">
+                    <h3>room</h3>
+                </header>
+                <ul class="">
+
+                    <li onclick="toggle()">
+                        <h2>X</h2>
+                    </li>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">shop</a></li>
+                    <li><a href="">contant</a></li>
+                </ul>
+            </section>
+            <div class="desc-image">
+
+                <img class="desc-image-hero slide" src="./images/desktop-image-hero-1.jpg" alt="">
+                <img class="desc-image-hero slide" src="./images/desktop-image-hero-2.jpg" alt="">
+                <img class="desc-image-hero slide" src="./images/desktop-image-hero-3.jpg" alt="">
+            </div>
+            <div class="mobile-image">
+                <img class="slidem mobile-image-hero" src="./images/mobile-image-hero-1.jpg" alt="">
+                <img class="slidem mobile-image-hero" src="./images/mobile-image-hero-2.jpg" alt="">
+                <img class="slidem mobile-image-hero" src="./images/mobile-image-hero-3.jpg" alt="">
+            </div>
+            <article class="main-contet">
+                <header>Discover innovative ways to decorate</header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi obcaecati accusamus hic, molestiae
+                    porro autem cupiditate consectetur, eius accusantium quas, voluptates deleniti consequuntur
+                    facilis assumenda reprehenderit ducimus, voluptatum, magni fuga sit! Voluptatem enim sint in neque
+                </p>
+                <div class="shop-now-btn">
+                    <a href="">shop now</a>
+                    <img src="./images/icon-arrow.svg" alt="">
+                </div>
+                <div class="btns">
+                    <button  onclick="nextSlide(1)" class="dot"><img src="./images/icon-angle-left.svg" alt=""></button>
+                    <button  onclick="prevSlide(-1)" class="dot"><img src="./images/icon-angle-right.svg" alt=""></button>
+                </div>
+                <div class="btns-mobile">
+                    <button  onclick="nextSlidem(1)" class="dot-m"><img src="./images/icon-angle-left.svg" alt=""></button>
+                    <button  onclick="prevSlidem(-1)" class="dot-m"><img src="./images/icon-angle-right.svg" alt=""></button>
+                </div>
+
+            </article>
+
+        </section>
+        <section class="second">
+
+            <img src="./images/image-about-dark.jpg" alt="">
+            <article class="second-contet">
+
+                <h4>about our furniture</h4>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi obcaecati accusamus hic, molestiae
+                    porro autem cupiditate consectetur, eius accusantium quas, voluptates deleniti consequuntur
+                    repellendus magni pariatur deserunt quod. Unde labore, neque illo tempore sunt officia at omnis
+                    facilis assumenda reprehenderit ducimus, voluptatum, magni fuga sit! Voluptatem enim sint in neque
+                    beatae molestias accusamus recusandae quae obcaecati dolores, ut libero. Neque fugiat placeat
+                    mollitia aliquam illo eius? Dolores illo hic impedit ipsam assumenda pariatur aliquid atque,
+                </p>
+            </article>
+            <img src="./images/image-about-light.jpg" alt="">
+        </section>
+
+    </main>
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
